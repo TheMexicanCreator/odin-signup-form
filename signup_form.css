@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+img {
+    width: 800px;
+    height: 1000px;
+}
+
+.form {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    text-align: left;
+    padding-top: 80px;
+    padding-right: 250px;
+    background: white;
+}
+
+.form1 {
+    font-family: 'Roboto', sans-serif;
+    float: right;
+    text-align: left;
+    padding-top: 10px;
+    padding-right: 40px;
+    background: white;
+}
+
+#firstName {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#lastName {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#email {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#phoneNumber {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#password {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+#confirmPassword {
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+.accept-box {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 15px;
+}
+
+.form-btns {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+#button {
+    background-color: green;
+    border-radius: 20px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
